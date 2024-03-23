@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Uidesigns" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:label">@string/app_name</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Uidesigns" parent="Base.Theme.Uidesigns" />
+</resources>
