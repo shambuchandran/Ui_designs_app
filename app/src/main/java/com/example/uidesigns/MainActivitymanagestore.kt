@@ -43,6 +43,10 @@ class MainActivitymanagestore : AppCompatActivity() {
                     startActivity(Intent(this, MainActivityorder::class.java))
                     true
                 }
+                R.id.manage -> {
+                    startActivity(Intent(this, MainActivitycatalogue::class.java))
+                    true
+                }
 
 
                 else -> false

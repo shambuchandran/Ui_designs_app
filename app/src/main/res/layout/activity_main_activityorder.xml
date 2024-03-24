@@ -128,11 +128,11 @@
         android:drawableTint="@color/white"
         android:gravity="center"
         android:paddingHorizontal="20dp"
-        android:text="TextView"
+        android:text="Order#257859"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
