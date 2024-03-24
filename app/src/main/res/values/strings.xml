@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">uidesigns</string>
+    <string name="title_activity_scrolling_activitypremium">ScrollingActivitypremium</string>
+    <string name="action_settings">Settings</string>
+    <string name="priority_support_get_your_questions_resolved_with_our_priority_customer_support">Priority Support, get your questions resolved with our priority customer support</string>
+    <string name="dukaan_for_pc_access_all_the_exclusive_premium_features_on_dukaan_pc">Dukaan for PC, Access all the exclusive premium features on Dukaan PC</string>
+    <string name="verified_seller_badge_get_green_seller_badge_under_your_store_name_and_build_trust">Verified seller badge , Get green seller badge under your store name and build trust</string>
+    <string name="custom_domain_name_get_your_custom_domain_name_and_build_your_brand_on_the_internet">Custom domain name ,Get your custom domain name and build your brand on the internet</string>
+    <string name="all_the_advanced_features_for_scaling_your_business">All the Advanced features for scaling your business</string>
+    \
+    <string name="large_text">This is the large text</string>
 </resources>

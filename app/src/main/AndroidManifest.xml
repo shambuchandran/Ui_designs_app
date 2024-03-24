@@ -13,6 +13,17 @@
         android:theme="@style/Theme.Uidesigns"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityorder"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitypremium"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivitypremium"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling_activitypremium"
+            android:theme="@style/Theme.Uidesigns.NoActionBar" />
+        <activity
             android:name=".listitempayments"
             android:exported="false" />
         <activity
@@ -20,9 +31,6 @@
             android:exported="false" />
         <activity
             android:name=".MainActivitymanagestore"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +38,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

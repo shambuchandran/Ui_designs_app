@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.72">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/signout"
             android:layout_width="75dp"
             android:layout_height="70dp"
             android:padding="22dp"
@@ -31,7 +31,7 @@
             app:srcCompat="@drawable/baseline_logout_24" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewsignout"
             android:layout_width="336dp"
             android:layout_height="70dp"
             android:gravity="center"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.6">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageViewrate"
             android:layout_width="75dp"
             android:layout_height="70dp"
             android:padding="22dp"
@@ -73,7 +73,7 @@
             tools:ignore="DuplicateIds" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewrate"
             android:layout_width="336dp"
             android:layout_height="70dp"
             android:gravity="center"
@@ -101,7 +101,7 @@
         app:layout_constraintVertical_bias="0.48000002">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageViewpolicy"
             android:layout_width="75dp"
             android:layout_height="70dp"
             android:padding="22dp"
@@ -114,7 +114,7 @@
             app:srcCompat="@drawable/baseline_lock_24" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewpolicy"
             android:layout_width="336dp"
             android:layout_height="70dp"
             android:gravity="center"
@@ -142,7 +142,7 @@
         app:layout_constraintVertical_bias="0.24000001">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageViewlanguage"
             android:layout_width="75dp"
             android:layout_height="70dp"
             android:padding="22dp"
@@ -155,7 +155,7 @@
             app:srcCompat="@drawable/language" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewlanguage"
             android:layout_width="276dp"
             android:layout_height="70dp"
             android:gravity="center"
@@ -171,7 +171,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewrightarrow"
             android:layout_width="60dp"
             android:layout_height="70dp"
             android:padding="15dp"
@@ -196,7 +196,7 @@
         app:layout_constraintVertical_bias="0.120000005">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageViewdukaaan"
             android:layout_width="75dp"
             android:layout_height="70dp"
             android:padding="22dp"
@@ -209,7 +209,7 @@
             app:srcCompat="@drawable/share" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewdukaan"
             android:layout_width="276dp"
             android:layout_height="70dp"
             android:gravity="center"
@@ -225,7 +225,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewrightarrowdukann"
             android:layout_width="60dp"
             android:layout_height="70dp"
             android:padding="15dp"
@@ -271,7 +271,8 @@
             android:layout_width="276dp"
             android:layout_height="70dp"
             android:gravity="center"
-            android:textAlignment="viewStart"
+            android:text="WhatsApp Chat Support"
+            android:textAlignment="textStart"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -280,8 +281,7 @@
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            tools:text="WhatsApp Chat Support" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/switch1"
@@ -301,7 +301,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="#430CB1"
+        android:background="#0091D8"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

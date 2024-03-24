@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,7 +10,7 @@
     tools:context=".MainActivitypayments">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewtopheading"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="#1E88E5"
@@ -39,9 +41,9 @@
         app:tint="@color/white" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/cardViewTranslimit"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="195dp"
         android:layout_margin="20dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"
@@ -107,10 +109,10 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39">
+        app:layout_constraintVertical_bias="0.39999998">
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textViewdefaultmethod"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center"
@@ -125,7 +127,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textViewonlinepayments"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center"
@@ -139,7 +141,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageViewrightarrowonlinepayments"
             android:layout_width="40dp"
             android:layout_height="50dp"
             android:padding="5dp"
@@ -159,12 +161,13 @@
         android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47000003">
+        app:layout_constraintVertical_bias="0.48000002">
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textViewpaymentprofile"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center"
@@ -179,7 +182,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textViewbankaccount"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center"
@@ -193,7 +196,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageViewrightarrowbankaccount"
             android:layout_width="40dp"
             android:layout_height="50dp"
             android:padding="5dp"
@@ -214,10 +217,10 @@
         android:background="#A8A8A8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -225,12 +228,13 @@
         android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57">
+        app:layout_constraintVertical_bias="0.58000004">
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textViewpaymentoverview"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:gravity="center"
@@ -275,20 +279,20 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
         android:layout_margin="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7">
+        app:layout_constraintVertical_bias="0.73">
 
         <androidx.cardview.widget.CardView
             android:layout_width="165dp"
             android:layout_height="match_parent"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="28dp"
             android:backgroundTint="#FB8C00"
             app:cardCornerRadius="10dp"
             app:cardElevation="10dp">
@@ -338,7 +342,7 @@
             app:cardElevation="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="165dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
@@ -383,10 +387,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.79" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -399,28 +403,29 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84000003">
+        app:layout_constraintVertical_bias="0.88">
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="5dp"
             android:backgroundTint="#EAEAEA"
             android:text="On hold"
             android:textColor="#505050"
-            android:textSize="12sp"
+            android:textSize="14sp"
             app:cornerRadius="20dp" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginRight="15dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
             android:backgroundTint="#006FD1"
-            android:textSize="12sp"
-            app:cornerRadius="20dp"
-            tools:text="Payouts (15)" />
+            android:text="Payouts"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="20dp" />
 
         <Button
             android:id="@+id/button5"
@@ -430,11 +435,11 @@
             android:backgroundTint="#EAEAEA"
             android:text="Refunds"
             android:textColor="#505050"
-            android:textSize="12sp"
+            android:textSize="14sp"
             app:cornerRadius="20dp" />
     </LinearLayout>
 
-    <ListView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -442,8 +447,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0"
-        tools:listitem="@layout/activity_listitempayments" />
+        app:layout_constraintVertical_bias="0.0">
+
+        <ListView
+            android:id="@+id/listviewpayments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0"
+            tools:listitem="@layout/activity_listitempayments" />
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
