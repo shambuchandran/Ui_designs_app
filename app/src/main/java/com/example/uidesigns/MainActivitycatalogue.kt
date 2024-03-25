@@ -17,18 +17,19 @@ class MainActivitycatalogue : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val images = arrayOf(
+        val images = listOf(
             R.drawable.tshirt,
+            R.drawable.tshirt1,
+            R.drawable.tshirt2,
+            R.drawable.tshirt3,
             R.drawable.tshirt,
-            R.drawable.tshirt,
-            R.drawable.tshirt,
-            R.drawable.tshirt,
-            R.drawable.tshirt,
-            R.drawable.tshirt,
-            R.drawable.tshirt,
+            R.drawable.tshirt1,
+            R.drawable.tshirt2,
+            R.drawable.tshirt3,
         )
         val listview=findViewById<ListView>(R.id.orderlistview)
-        listview.adapter=
+        listview.adapter=ListAdapter(this,images)
+
 
 
     }
